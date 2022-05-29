@@ -27,7 +27,7 @@ public class MainFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View v = inflater.inflate(R.layout.fragment_main, container, false);
+        View v = inflater.inflate(R.layout.activity_main, container, false);
 
         if (savedInstanceState == null) {
             getActivity().getSupportFragmentManager().beginTransaction().replace(R.id.frameMain, new ListagemFragment()).commit();
