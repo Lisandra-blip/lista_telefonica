@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipal.AdicionarFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewEditarContato"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Contato Selecionado"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_margin="40px"
+        android:text="nome" />
+
+        <EditText
+            android:id="@+id/editTextNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/textViewTipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:text="Tipo de contato" />
+
+        <Spinner
+            android:id="@+id/spinnertipo"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="40px"
+            android:layout_marginRight="40px"
+            android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:text="telefone_celular" />
+
+    <EditText
+        android:id="@+id/editTextCelular"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="40px"
+        android:inputType="phone" />
+
+
+        <Button
+            android:id="@+id/buttonAdicionarContato"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="salvar" />
+        <Button
+            android:id="@+id/buttonListar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listar" />
+    </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

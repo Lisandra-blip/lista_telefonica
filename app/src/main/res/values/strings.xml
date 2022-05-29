@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ListaTelefonica</string>
+
+    <string name="dialog_excluir">Excluir contato?</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
